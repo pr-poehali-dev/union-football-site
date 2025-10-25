@@ -1,8 +1,11 @@
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
+import ClubStats from "@/components/ClubStats";
 import News from "@/components/News";
-import LatestMatches from "@/components/LatestMatches";
-import Team from "@/components/Team";
+import Calendar from "@/components/Calendar";
+import LeagueTable from "@/components/LeagueTable";
+import PlayerStats from "@/components/PlayerStats";
+import Gallery from "@/components/Gallery";
 import Footer from "@/components/Footer";
 
 export default function Index() {
@@ -10,9 +13,12 @@ export default function Index() {
     <div className="min-h-screen">
       <Header />
       <Hero />
+      <ClubStats />
       <News />
-      <LatestMatches />
-      <Team />
+      <Calendar />
+      <LeagueTable />
+      <PlayerStats />
+      <Gallery />
       <Footer />
     </div>
   );
