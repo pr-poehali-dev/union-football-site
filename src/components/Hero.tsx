@@ -15,9 +15,19 @@ export default function Hero() {
             <h2 className="text-5xl md:text-7xl font-black mb-6 leading-tight">
               FC UNION<br />ВОРОНЕЖ
             </h2>
-            <p className="text-xl md:text-2xl mb-8 text-white/90">
+            <p className="text-xl md:text-2xl mb-4 text-white/90">
               Профессиональный футбольный клуб
             </p>
+            <div className="flex flex-col gap-2 mb-8 text-white/80">
+              <div className="flex items-center gap-2">
+                <Icon name="MapPin" size={20} />
+                <span className="text-lg">Школа 83, г. Воронеж</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <Icon name="Phone" size={20} />
+                <a href="tel:+79525585399" className="text-lg hover:text-accent transition-colors">+7 (952) 558-53-99</a>
+              </div>
+            </div>
             <div className="flex flex-wrap gap-4">
               <Button size="lg" className="bg-accent hover:bg-accent/90 text-foreground font-bold">
                 <Icon name="Ticket" className="mr-2" size={20} />

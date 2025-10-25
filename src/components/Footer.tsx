@@ -37,11 +37,11 @@ export default function Footer() {
             <ul className="space-y-2 text-white/70 text-sm">
               <li className="flex items-start gap-2">
                 <Icon name="MapPin" size={16} className="mt-1 flex-shrink-0" />
-                <span>г. Воронеж, ул. Спортивная, 1</span>
+                <span>Школа 83, г. Воронеж</span>
               </li>
               <li className="flex items-center gap-2">
                 <Icon name="Phone" size={16} />
-                <span>+7 (473) 123-45-67</span>
+                <a href="tel:+79525585399" className="hover:text-accent transition-colors">+7 (952) 558-53-99</a>
               </li>
               <li className="flex items-center gap-2">
                 <Icon name="Mail" size={16} />
